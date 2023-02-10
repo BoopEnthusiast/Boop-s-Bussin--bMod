@@ -1,0 +1,18 @@
+{
+  "name": "BoopsBussinbMod",
+  "version_number": "1.0.1",
+  "website_url": "https://boop.pages.dev/",
+  "description": "Just me mod, idk what to do with it",
+  "dependencies": [
+    "willis81808-MMHook-1.0.0",
+    "BepInEx-BepInExPack_ROUNDS-5.4.1900",
+    "willuwontu-RespawnPatch-1.0.6",
+    "Pykess-LegRaycastersPatch-0.0.0",
+    "Pykess-PlayerJumpPatch-0.0.2",
+    "willis81808-UnboundLib-3.2.6",
+    "Pykess-ModdingUtils-0.4.6",
+    "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.9",
+    "willuwontu-BlockForcePatch-1.0.1",
+    "Root-Classes_Manager_Reborn-1.5.0"
+  ]
+}
