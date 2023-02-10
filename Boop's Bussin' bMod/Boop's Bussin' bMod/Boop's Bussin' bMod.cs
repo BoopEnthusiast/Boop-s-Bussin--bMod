@@ -25,6 +25,10 @@ namespace BoopsBussinbMod
 
         public static BoopsBussinbMod instance { get; private set; }
 
+        public const bool debug_g = true; // Debug cards
+        public const bool debug_a = true; // Debug all
+        public const bool debug_am = true; // Debug Mono
+
         void Awake()
         {
             // Use this to call any harmony patch files your mod may have

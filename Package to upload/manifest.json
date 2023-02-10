@@ -1,7 +1,7 @@
 {
   "name": "BoopsBussinbMod",
   "version_number": "1.0.1",
-  "website_url": "https://boop.pages.dev/",
+  "website_url": "https://github.com/BoopEnthusiast/Boop-s-Bussin--bMod",
   "description": "Just me mod, idk what to do with it",
   "dependencies": [
     "willis81808-MMHook-1.0.0",

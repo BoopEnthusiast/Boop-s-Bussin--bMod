@@ -33,4 +33,19 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Cards\Bard\" />
+    <Folder Include="Cards\Cleric\" />
+    <Folder Include="Cards\Druid\" />
+    <Folder Include="Cards\Fighter\" />
+    <Folder Include="Cards\Monk\" />
+    <Folder Include="Cards\Ranger\" />
+    <Folder Include="Cards\Rogue\" />
+    <Folder Include="Cards\Sorcerer\" />
+    <Folder Include="Cards\Warlock\" />
+    <Folder Include="Cards\Wizard\" />
+    <Folder Include="Cards\Barbarian\" />
+    <Folder Include="Cards\Paladin\" />
+  </ItemGroup>
+
 </Project>
