@@ -20,8 +20,10 @@ namespace BoopsBussinbMod
     {
         private const string ModId = "com.boop.rounds.BoopsBussinbMod";
         private const string ModName = "Boop's Bussin' bMod";
-        public const string Version = "0.1.0"; // What version are we on (major.minor.patch)?
+        public const string Version = "1.0.0"; // What version are we on (major.minor.patch)?
+        public const string ModInitials = "Boop";
 
+        public static BoopsBussinbMod instance { get; private set; }
 
         void Awake()
         {
@@ -31,7 +33,8 @@ namespace BoopsBussinbMod
         }
         void Start()
         {
-            CustomCard.BuildCard<MyCardName>();
+            CustomCard.BuildCard<EvasiveManeuvers>();
+            instance = this;
         }
     }
 }
