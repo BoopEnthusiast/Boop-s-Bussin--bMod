@@ -1,8 +1,8 @@
 {
   "name": "BoopsBussinbMod",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/BoopEnthusiast/Boop-s-Bussin--bMod",
-  "description": "Just me mod, idk what to do with it",
+  "description": "Adds an EXPERIMENTAL ranger class, I repeat EXPERIMENTAL. Plan on adding all the DnD classes",
   "dependencies": [
     "willis81808-MMHook-1.0.0",
     "BepInEx-BepInExPack_ROUNDS-5.4.1900",

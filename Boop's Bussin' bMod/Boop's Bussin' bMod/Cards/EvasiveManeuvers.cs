@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +10,7 @@ using UnboundLib.Cards;
 using UnityEngine;
 
 
-namespace BoopsBussinbMod.Cards
+namespace Boop_s_Bussin__bMod.Cards
 {
     class EvasiveManeuvers : CustomCard
     {
@@ -78,3 +80,4 @@ namespace BoopsBussinbMod.Cards
         }
     }
 }
+*/

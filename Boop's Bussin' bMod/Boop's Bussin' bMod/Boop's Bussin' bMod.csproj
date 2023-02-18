@@ -19,6 +19,9 @@
     <Reference Include="CardChoiceSpawnUniqueCardPatch">
       <HintPath>..\..\..\..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ROUNDS\profiles\My mods\BepInEx\plugins\Pykess-CardChoiceSpawnUniqueCardPatch\CardChoiceSpawnUniqueCardPatch.dll</HintPath>
     </Reference>
+    <Reference Include="ClassesManagerReborn">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ROUNDS\profiles\My mods\BepInEx\plugins\Root-Classes_Manager_Reborn\ClassesManagerReborn.dll</HintPath>
+    </Reference>
     <Reference Include="ModdingUtils">
       <HintPath>..\..\..\..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ROUNDS\profiles\My mods\BepInEx\plugins\Pykess-ModdingUtils\ModdingUtils.dll</HintPath>
     </Reference>
@@ -39,7 +42,6 @@
     <Folder Include="Cards\Druid\" />
     <Folder Include="Cards\Fighter\" />
     <Folder Include="Cards\Monk\" />
-    <Folder Include="Cards\Ranger\" />
     <Folder Include="Cards\Rogue\" />
     <Folder Include="Cards\Sorcerer\" />
     <Folder Include="Cards\Warlock\" />

@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using UnboundLib;
 using UnboundLib.Cards;
-using BoopsBussinbMod.Cards;
 using HarmonyLib;
 using CardChoiceSpawnUniqueCardPatch.CustomCategories;
-
+using BoopsBussinbMod.Cards;
+using BoopsBussinbMod.Cards.Ranger;
 
 namespace BoopsBussinbMod
 {
@@ -12,6 +12,8 @@ namespace BoopsBussinbMod
     [BepInDependency("com.willis.rounds.unbound", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.moddingutils", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("root.classes.manager.reborn")]
+
     // Declares our mod to Bepin
     [BepInPlugin(ModId, ModName, Version)]
     // The game our mod is associated with
@@ -20,7 +22,7 @@ namespace BoopsBussinbMod
     {
         private const string ModId = "com.boop.rounds.BoopsBussinbMod";
         private const string ModName = "Boop's Bussin' bMod";
-        public const string Version = "1.0.0"; // What version are we on (major.minor.patch)?
+        public const string Version = "1.1.0"; // What version are we on (major.minor.patch)?
         public const string ModInitials = "Boop";
 
         public static BoopsBussinbMod instance { get; private set; }
@@ -37,8 +39,12 @@ namespace BoopsBussinbMod
         }
         void Start()
         {
-            CustomCard.BuildCard<EvasiveManeuvers>();
             instance = this;
+
+            //Ranger class
+            CustomCard.BuildCard<Ranger>((card) => Ranger.Card = card);
+            CustomCard.BuildCard<FasterBullet>((card) => FasterBullet.Card = card);
+
         }
     }
 }
